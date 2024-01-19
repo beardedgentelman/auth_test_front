@@ -1,0 +1,81 @@
+{
+  "extends": ["eslint:recommended"],
+  "root": true,
+  "ignorePatterns": ["**/*"],
+  "plugins": ["react"],
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
+      "rules": {
+      }
+    }
+  ],
+  "rules": {
+
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "babel/semi": [
+      "error",
+      "always"
+    ],
+    "indent": [
+      "error",
+      4,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
+    "react/self-closing-comp": [
+      "error",
+      {
+        "component": true,
+        "html": true
+      }
+    ],
+    "jsx-quotes": [
+      "error",
+      "prefer-double"
+    ],
+    "no-console": [
+      "warn"
+    ],
+    "no-nested-ternary": [
+      "error"
+    ],
+    "keyword-spacing": [
+      "error",
+      {
+        "after": true
+      }
+    ],
+    "space-before-function-paren": [
+      "error",
+      {
+        "anonymous": "never",
+        "named": "never",
+        "asyncArrow": "always"
+      }
+    ],
+    "import/newline-after-import": [
+      "error",
+      {
+        "count": 1
+      }
+    ],
+    "no-case-declarations": "off",
+    "import/namespace": [
+      "error",
+      {
+        "allowComputed": true
+      }
+    ],
+    "react/prop-types": "off",
+    "react/no-children-prop": "off"
+  }
+}
