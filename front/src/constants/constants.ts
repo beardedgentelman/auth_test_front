@@ -1,4 +1,4 @@
-export const PAGE_WITH_HEADER = ['/home', '/home/tasks', '/home/tasks/new_task']
+export const PAGE_WITH_HEADER = ['/home']
 
 export const styleModal = {
   position: 'absolute' as 'absolute',
